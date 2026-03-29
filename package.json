@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MynBites/nodejs-esm-template.git"
+    "url": "git+https://github.com/nurutomo/js-games.git"
   },
   "keywords": [
     "nodejs",
@@ -24,9 +24,9 @@
   "author": "MynBites",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/MynBites/nodejs-esm-template/issues"
+    "url": "https://github.com/nurutomo/js-games/issues"
   },
-  "homepage": "https://github.com/MynBites/nodejs-esm-template#readme",
+  "homepage": "https://github.com/nurutomo/js-games#readme",
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.15.3",
