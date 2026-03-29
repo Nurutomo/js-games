@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "build": "tsc -P tsconfig.build.json",
+    "prepack": "npm run build",
+    "prepare": "npm run build",
     "test": "tsx ./node_modules/mocha/bin/mocha.js --recursive \"**/*.test.ts\""
   },
   "repository": {
