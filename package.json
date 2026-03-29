@@ -1,11 +1,11 @@
 {
-  "name": "template-project",
+  "name": "@nurutomo/js-games",
   "version": "0.0.1",
-  "description": "Template Project",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "description": "A collection of games implemented in JavaScript/TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "scripts": {
     "build": "tsc -P tsconfig.build.json",
