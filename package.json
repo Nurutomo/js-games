@@ -2,11 +2,14 @@
   "name": "template-project",
   "version": "0.0.1",
   "description": "Template Project",
-  "type": "module",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
-    "start": "node ./index.js",
-    "test": "mocha --recursive"
+    "build": "tsc -P tsconfig.build.json",
+    "test": "tsx ./node_modules/mocha/bin/mocha.js --recursive \"**/*.test.ts\""
   },
   "repository": {
     "type": "git",
@@ -14,7 +17,7 @@
   },
   "keywords": [
     "nodejs",
-    "javascript"
+    "typescript"
   ],
   "author": "MynBites",
   "license": "GPL-3.0-or-later",
@@ -23,6 +26,10 @@
   },
   "homepage": "https://github.com/MynBites/nodejs-esm-template#readme",
   "devDependencies": {
-    "mocha": "^11.1.0"
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.15.3",
+    "mocha": "^11.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
   }
 }
