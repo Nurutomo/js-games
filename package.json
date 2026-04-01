@@ -1,6 +1,6 @@
 {
   "name": "@nurutomo/js-games",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A collection of games implemented in JavaScript/TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
     "nodejs",
     "typescript"
   ],
-  "author": "MynBites",
+  "author": "Nurutomo",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/nurutomo/js-games/issues"
